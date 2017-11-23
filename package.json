@@ -5,15 +5,21 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon .",
+    "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Boy With Silver Wings <agney@outlook.in>",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "dotenv": "^4.0.0",
     "eslint": "^4.11.0",
     "express": "^4.16.2",
-    "nodemon": "^1.12.1"
+    "express-session": "^1.15.6",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "husky": "^0.14.3",
